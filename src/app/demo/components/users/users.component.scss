@@ -1,0 +1,42 @@
+.custom-card {
+    background-color: var(--surface-card);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    color: var(--text-color);
+    border: 1px solid var(--surface-border);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.custom-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--primary-color);
+}
+.custom-card-body {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.custom-card-body p {
+    margin: 0 0 1rem 0;
+}
+
+.custom-card-icon
+.custom-card-image:hover {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-left: 10px;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+::ng-deep .p-dialog .p-dialog-header {
+    color: var(--primary-color);
+  }
